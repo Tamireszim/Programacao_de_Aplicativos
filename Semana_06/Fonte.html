@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 05</title>
+    <link rel="stylesheet" href="Styles.css">
+
+    <style>
+        h1 {
+            color: rgb(247, 0, 255);
+            font-size: 120px;
+            font-family:sans-serif
+            
+        }
+       
+    </style>
+</head>
+<body onkeypress="capturarTecla(event)">
+    <header>
+        <h1>Desenvolvimento</h1>
+        <nav>
+            <ul>
+                <li><a href="http://sc.senai.br" target="_blank">Inicio</a></li>
+                <li> <strong> Portfólio</strong></li>
+                <li><strong>Realize seu pedido</strong></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-main">
+            <h2> Seção de Introdução</h2>
+            <p>Pagina de exemplos de Tags <strong>Inicio, Portfólio, Realize seu pedido</strong></p>
+            <img src="https://assets.isu.pub/document-structure/230426143910-3827d77b9241ad3baa3af8402c072807/v1/3effee75b5f8eb704f79adac810b8b91.jpeg" alt="">
+        </section>
+
+        <section class="section-main section-cursos">
+            <h2>Unidades curriculares</h2>
+
+            <div class="div-conteudo">
+                <div class="div-item">
+                    <h2>Lógica de programação</h2>
+                    <p>UN 1 </p>
+
+                </div>
+
+                <div class="div-item">
+                    <h2>Programação de apps</h2>
+                    <p>UN 2</p>
+                </div>
+
+                <div class="div-item">
+                    <h2>Desenvolvimento de sistemas</h2>
+                    <p>UN 3</p>
+                    
+                </div>
+            </div>
+            <section class="selection-main selection-contato">
+                <h2>Contato</h2>
+                <form action="">
+                    <label for="name">Nome Completo: </label>
+                    <input type="text" id="name" name="name" />
+
+                    <label for="email">E-mail: </label> 
+                    <input type="email" email="email" id="email" />
+
+                    <label for="messege">Mensagem: </label> 
+                    <textarea id="message" name="message" rows="5"></textarea>
+
+                    <button type="submit" onclick="pegarInformacoes(event)">Enviar</button>
+
+                </form>
+            </section>
+        </section>
+        <select class="section-main selection-curso">
+
+        </select>
+    </main>
+<script src="script/index.js"></script>
+
+</body>
+
+</html>

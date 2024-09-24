@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:teal;
+    width: 100vw;
+    height: 400px;
+    padding: 200px 150px 100px 150px;
+    text-align: center;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;    
+    font-weight: bold;
+}
+
+header nav ul li {
+    padding: 10px 20px;
+}
+
+header nav ul li:hover {
+    background-color: rgb(234, 0, 255);
+    border-radius: 10px;
+    cursor:pointer;
+
+}
+
+main {
+    background-color: rgb(122, 114, 114);
+    padding: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.section-main{
+    background-color: rgb(176, 129, 219);
+    max-width: 100%;
+    width: auto;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.section-main h2{
+    color:darkmagenta;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: unset;
+
+}
+
+.section-main img{
+    width: 100%;
+    padding: 20px;
+}
+
+.section-cursos{
+    min-width: 80%;
+}
+
+.div-conteudo{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    gap: 20px;
+}
+
+.div-item {
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.div-item h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+}
+
+.div-item p{
+    text-align: center;
+    color: chartreuse;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.selection-contato{
+    min-width: 20%;
+}
+
+.selection-contato form{
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-contato form input,
+.selection-contato form textarea{
+    margin-bottom: 10px;
+
+}
+.selection-contato form button{
+    padding: 20px;
+    background-color: aquamarine;
+    color:rgb(3, 2, 0);
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
